@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remover Elementos em Posições Ímpares</title>
+
+    <script>
+
+        var lista = [1,6,2,8,9]
+        for (posicao in lista) {
+            if (posicao % 2 != 0) {
+                lista.splice(posicao,1)
+            }
+        }
+        alert (lista)
+
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
